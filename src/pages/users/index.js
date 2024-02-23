@@ -51,7 +51,7 @@ const User = () => {
       title: "Action",
       key: "action",
       render: (text, record) => (
-          <Button type="link" onClick={() => router.push(`users/${record.id}`)}>View Details</Button>
+          <Button type="link" onClick={() => router.push(`users/${record.id}`)}>View Details post</Button>
       ),
     },
   ];
